@@ -22,6 +22,6 @@
 
  [![My Skills](https://skillicons.dev/icons?i=js,html,css,nodejs,figma,vscode,)](https://skillicons.dev)
 
- https://dynamic-scone-5c38e0.netlify.app
+https://scintillating-alpaca-a530cd.netlify.app/
 
 
