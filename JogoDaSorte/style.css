@@ -19,9 +19,11 @@ section {
 
 .page1 {
     width: 100vw;
-    height: 100vh;
-    padding: 100px 60px 30px 60px;
+    height: 90vh;
+    column-gap: 10rem;
+    padding: 160px 60px 30px 60px;
     display: flex;
+    justify-content: center;
     flex-flow: row;
     background-color: #1e0d3c;
   
@@ -62,7 +64,7 @@ span  {
 
 .page2 {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     padding: 100px 50px 0px 50px;
     background-color: #150929;
 }

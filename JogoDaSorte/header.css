@@ -7,14 +7,15 @@
 }
 
 .logo  > img{
-    width: 200px;
-    height: 55px;
+    width: 250px;
+    height: 65px;
 }
 
 header {
     background-color: #070607;    
     width: 100%;
     position: fixed;
+    padding: 20px;
 }
 
 .logo{
@@ -35,7 +36,7 @@ header {
     color: #ffff;
     text-decoration: none;
     padding-right: 30px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -45,8 +46,8 @@ header {
 }
 
 .contatos button {
-    width: 35px;
-    height: 32px;
+    width: 55px;
+    height: 52px;
     color: #2d3dc7;
     background: transparent;
     border: solid 2px #2d3dc7;
@@ -56,7 +57,7 @@ header {
 }
 
 .contatos button i {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 html {
