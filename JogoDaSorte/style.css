@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.interface{
+    height: 100vh;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.page1 {
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 60px 30px 60px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    background-color: #1e0d3c;
+  
+}
+
+.page1 img {
+    width: 690px;
+    height: 450px;
+}
+
+.btn {
+   width: 40%;
+   text-transform: uppercase; 
+}
+
+aside {
+    padding: 90px 0px 0px 0px;
+}
+
+aside h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+
+span  {
+    color: rgb(34, 85, 253);
+}
+
+.page1 p {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 480px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 50px 0px 50px;
+    background-color: #150929;
+}
+
+.page2 h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 30px;
+    max-width: 300px;
+}
+
+.page2 span  {
+    color: rgb(34, 85, 253);
+    padding-left: 30px;
+}
+
+.article{
+    column-count: 3;
+    column-gap: 3rem;
+    padding: 40px 0px 0px 0px;
+    column-rule: 2px dashed rgb(34, 85, 253);
+    
+}
+
+
+.article p {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 10px 0px 20px 0px;
+    max-width: 400px;
+}
+
