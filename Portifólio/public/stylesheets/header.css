@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Jua&display=swap');
+
+/*CSS do Header*/
+.container {
+    padding: 15px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu nav a {
+    color: #E7CBA4;
+    padding-right: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu nav a:hover {
+    color: #C2B65B;
+}
+
+nav {
+    padding: 10px 0px 0px 0px;
+}
+
+nav button {
+    width: 120px;
+    height: 35px;
+    margin-left: 20px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    background: #C2B65B;
+    color: #472B25;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#mobie-btn{
+    display: none;
+}
+
+.mobie-menu {
+    display: none;
+}
+
+ /*CSS botao Topo*/
+ .topo {
+    position: fixed;
+    bottom: 10px;
+    right: -500px;
+    cursor: pointer;
+    transition: .8s all;
+ }
+
+ .show-button .topo{
+    right: 10px;
+    transition: .4s all;
+ }
+
+ /*CSS Mobie*/
+ @media screen and  (max-width: 1170px){
+    #mobie-btn{
+        display:block;
+        border: none;
+        background: transparent;
+        font-size: 38px;
+        font-weight: 900;
+        color: #C2B65B;
+        cursor: pointer;
+    }
+
+    .container > img {
+        width: 35%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .mobie-menu.actve{
+        display: block;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+
+    .btn-menu-mobie {
+    width: 120px;
+    height: 35px;
+    margin-left: 20px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    background: #C2B65B;
+    color: #472B25;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .mobie-nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 17px;
+        gap: 18px;
+        margin: 18px 0px;
+        list-style: none;
+    }
+
+    .nav-item a {
+        color: #E7CBA4;
+        text-decoration: none;
+    }
+ }

@@ -1,0 +1,17 @@
+.page1 span {
+    color: #E4BB81;
+    padding-left: 30px;
+    animation: myname  6s steps(18, end) infinite;
+    display: inline-block;
+    overflow: hidden;
+    border-right: 2px solid #E4BB81;
+    white-space: nowrap;
+    margin: 0;
+}
+
+@keyframes myname {
+    0% { width: 0 }
+    25% { width: 5%;}
+    50% { width: 66% }
+    100% { width: 66% }
+}
